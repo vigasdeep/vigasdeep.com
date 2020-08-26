@@ -1,0 +1,53 @@
+baseURL = "https://vigasdeep.com/"
+languageCode = "en-us"
+title = "Vigas Deep"
+theme = "hello-friend-ng"
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
+  pages = "/:title/"
+[author]
+  name = "Vigas Deep"
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+[params]
+  description = "Blog of a server admin, Backend lead and his experiences in tech world and life"
+  keywords = "technical server administration tutorials life personal happiness"
+  homeSubtitle = "Backends, Servers, Life and Happiness."
+  enableSharingButtons = true
+  defaultTheme = "light"
+  [params.portrait]
+    path = "https://en.gravatar.com/userimage/17097226/bcdf3c23bdb7e78ec505a228179f6f12.jpg?size=600"
+    alt = "Vigas Deep"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/vigasdeep"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:me@vigasdeep.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/vigasdeep"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/vigasdeep"
+
+  [[params.social]]
+    name = "instagram"
+    url  = "https://instagram.com/vigasdeep"
+
+[menu]
+ [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about-me/"
+ 
