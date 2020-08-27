@@ -1,7 +1,7 @@
 baseURL = "https://vigasdeep.com/"
 languageCode = "en-us"
 title = "Vigas Deep"
-theme = "hello-friend-ng"
+theme = "hello-friend-ng-vigas"
 [permalinks]
   posts = "/:year/:month/:day/:title/"
   pages = "/:title/"

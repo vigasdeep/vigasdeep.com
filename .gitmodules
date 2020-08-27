@@ -3,4 +3,4 @@
 	url = git@github.com:vigasdeep/hugo-theme-hello-friend-ng.git
 [submodule "themes/hello-friend-ng-vigas"]
 	path = themes/hello-friend-ng-vigas
-	url = git@github.com:vigasdeep/hugo-theme-hello-friend-ng.git
+	url = https://github.com/vigasdeep/hugo-theme-hello-friend-ng.git
